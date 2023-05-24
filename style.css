@@ -1,0 +1,129 @@
+
+*{
+    background-color: lightpink;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 300%;
+
+
+}
+
+#grid {
+    display: grid;
+    float: center;
+    height: 500px;
+    padding: 0% 20%;  
+    
+    
+    grid-template-columns: 1fr 1fr 1fr 0.75fr 1.25fr 0.75fr;
+    grid-template-rows: 6fr 6fr 6fr 6fr;
+
+    font-size: 200%;
+    font-weight: bold;
+  }
+
+#colores {
+	
+    background: green;
+    grid-column: 1/7;
+    text-align: center; 
+    width: 100%;
+    
+    
+}
+
+#black {
+    background-color: black;
+    align-items: center;
+    padding-top: 35px;
+    
+    
+}
+
+#teal {
+    background-color: teal;
+    align-items: center;
+    padding-top: 35px;
+}
+
+#blue {
+    background-color: blue;
+    padding-top: 35px;
+}
+
+#navy {
+    background-color: navy;
+    padding-top: 35px;
+}
+
+#lime {
+    background-color: lime;
+    padding-top: 35px;
+}
+
+#white {
+    background-color: white;
+    padding-top: 35px;
+}
+
+#purple {
+    background-color: purple;
+    padding-top: 35px;
+}
+
+#yellow {
+    background-color: yellow;
+    padding-top: 35px;
+}
+
+#olive {
+    background-color: olive;
+    padding-top: 35px;
+}
+
+#red {
+    background-color: red;
+    padding-top: 35px;
+}
+
+#maroon {
+    background-color: maroon;
+    padding-top: 35px;
+}
+
+#gray {
+    background-color: gray;
+    padding-top: 35px;
+}
+
+#olive {
+    background-color: olive;
+    padding-top: 35px;
+}
+
+#red {
+    background-color: red;
+    padding-top: 35px;
+}
+
+#fuchsia {
+    background-color: fuchsia;
+    padding-top: 35px;
+    grid-column: 3/4;
+}
+
+#green {
+    background-color: green;
+    grid-column: 4/7;
+    padding-top: 35px;
+    
+}
+
+.colores {
+    text-align: center;
+    font-size: 400%;
+
+}
